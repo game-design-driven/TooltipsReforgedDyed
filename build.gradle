@@ -32,7 +32,7 @@ dependencies {
     modImplementation "maven.modrinth:tooltips-reforged:pVJniKgm"
 
     // Jupiter config library
-    modImplementation "maven.modrinth:jupiter:VoXOiwvs"
+    modImplementation "maven.modrinth:jupiter:6FVn8sRM"
 
     // Integration library for entrypoint
     modImplementation "com.github.IAFEnvoy.Integration:integration-forge:${project.integration_version}"
