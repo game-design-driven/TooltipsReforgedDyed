@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+
+[[mods]]
+modId = "tooltips_reforged_dyed"
+version = "1.0"
+displayName = "Tooltips Reforged Dyed"
+authors = "kcw"
+description = '''
+Custom user-defined tags for TooltipsReforged
+'''
+
+[[dependencies.tooltips_reforged_dyed]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.tooltips_reforged_dyed]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.20.5)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.tooltips_reforged_dyed]]
+modId = "tooltips_reforged"
+mandatory = true
+versionRange = "[1.7,)"
+ordering = "AFTER"
+side = "CLIENT"
