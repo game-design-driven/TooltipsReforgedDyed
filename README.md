@@ -10,4 +10,3 @@ An addon for [Tooltips Reforged](https://modrinth.com/mod/tooltips-reforged) tha
 - **Auto-derived Display**: Tag text and colors are automatically generated if not specified
 - **Hot Reload**: Edit the config file and changes apply immediately on next hover
 - **Configurable**: Easily customize every aspect
-
