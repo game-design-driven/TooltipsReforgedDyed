@@ -1,10 +1,10 @@
-package com.kcw.tooltipsreforgeddyed;
+package com.yardenzamir.tooltipsreforgeddyed;
 
 import com.iafenvoy.integration.entrypoint.EntryPointProvider;
 import com.iafenvoy.tooltipsreforged.api.TooltipsReforgeEntrypoint;
-import com.kcw.tooltipsreforgeddyed.component.CustomTagComponent;
-import com.kcw.tooltipsreforgeddyed.config.CustomTagsConfig;
-import com.kcw.tooltipsreforgeddyed.config.CustomTagsConfig.ResolvedTag;
+import com.yardenzamir.tooltipsreforgeddyed.component.CustomTagComponent;
+import com.yardenzamir.tooltipsreforgeddyed.config.CustomTagsConfig;
+import com.yardenzamir.tooltipsreforgeddyed.config.CustomTagsConfig.ResolvedTag;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.tooltip.TooltipComponent;
 import net.minecraft.item.ItemStack;

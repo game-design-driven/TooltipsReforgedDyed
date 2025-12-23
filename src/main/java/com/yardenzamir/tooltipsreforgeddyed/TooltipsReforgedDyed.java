@@ -1,6 +1,6 @@
-package com.kcw.tooltipsreforgeddyed;
+package com.yardenzamir.tooltipsreforgeddyed;
 
-import com.kcw.tooltipsreforgeddyed.config.CustomTagsConfig;
+import com.yardenzamir.tooltipsreforgeddyed.config.CustomTagsConfig;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.loading.FMLPaths;
 import org.slf4j.Logger;

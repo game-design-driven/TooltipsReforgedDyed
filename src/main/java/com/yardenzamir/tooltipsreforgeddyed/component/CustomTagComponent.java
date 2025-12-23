@@ -1,6 +1,6 @@
-package com.kcw.tooltipsreforgeddyed.component;
+package com.yardenzamir.tooltipsreforgeddyed.component;
 
-import com.kcw.tooltipsreforgeddyed.config.CustomTagsConfig.ResolvedTag;
+import com.yardenzamir.tooltipsreforgeddyed.config.CustomTagsConfig.ResolvedTag;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.font.TextRenderer;
 import net.minecraft.client.gui.DrawContext;

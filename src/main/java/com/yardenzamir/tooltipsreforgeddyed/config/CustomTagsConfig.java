@@ -1,8 +1,8 @@
-package com.kcw.tooltipsreforgeddyed.config;
+package com.yardenzamir.tooltipsreforgeddyed.config;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.kcw.tooltipsreforgeddyed.TooltipsReforgedDyed;
+import com.yardenzamir.tooltipsreforgeddyed.TooltipsReforgedDyed;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemStack;

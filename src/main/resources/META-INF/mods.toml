@@ -6,7 +6,7 @@ license = "MIT"
 modId = "tooltips_reforged_dyed"
 version = "${version}"
 displayName = "Tooltips Reforged Dyed"
-authors = "kcw"
+authors = "yardenzamir"
 description = '''
 Custom user-defined tags for TooltipsReforged
 '''
