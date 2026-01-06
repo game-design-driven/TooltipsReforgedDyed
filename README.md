@@ -10,3 +10,11 @@ An addon for [Tooltips Reforged](https://modrinth.com/mod/tooltips-reforged) tha
 - **Auto-derived Display**: Tag text and colors are automatically generated if not specified
 - **Hot Reload**: Edit the config file and changes apply immediately on next hover
 - **Configurable**: Easily customize every aspect
+
+### Wares Mod Integration
+
+Displays trade information directly in tooltips for Wares mod items:
+
+- **Supported items**: `wares:delivery_agreement`, `wares:sealed_delivery_agreement`, `ptdye:trading_transceiver`
+- Shows requested items (what you give) and payment items (what you receive) with actual item icons
+- Duplicate items are automatically merged and counts summed
