@@ -38,17 +38,16 @@ public class CustomTagsEntrypoint implements TooltipsReforgeEntrypoint {
 
         int insertIndex = Math.min(1, components.size());
 
-        // Handle Wares mod trade items
-        NbtCompound tradeNbt = extractTradeNbt(stack);
-        if (tradeNbt != null) {
-            components.add(insertIndex, WaresTradeComponent.fromNbt(tradeNbt));
+        List<ResolvedTag> tags = CustomTagsConfig.getTagsForItem(stack);
+        if (!tags.isEmpty()) {
+            components.add(insertIndex, new CustomTagComponent(tags));
             insertIndex++;
         }
 
-        List<ResolvedTag> tags = CustomTagsConfig.getTagsForItem(stack);
-
-        if (!tags.isEmpty()) {
-            components.add(insertIndex, new CustomTagComponent(tags));
+        // Handle Wares mod trade items (below tags)
+        NbtCompound tradeNbt = extractTradeNbt(stack);
+        if (tradeNbt != null) {
+            components.add(insertIndex, WaresTradeComponent.fromNbt(tradeNbt));
         }
     }
 
