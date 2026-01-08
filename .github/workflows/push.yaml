@@ -15,7 +15,7 @@ on:
 env:
   mod_name: "TooltipsReforgedDyed"
   mod_id: "TooltipsReforgedDyed"
-  mod_slug: "TooltipsReforgedDyed"
+  mod_slug: "tooltipsreforgeddyed"
   loader: "forge"
   mc_version: "1.20.1"
   target_modpack_repo: "game-design-driven/Create-Prepare-to-Dye-2"
