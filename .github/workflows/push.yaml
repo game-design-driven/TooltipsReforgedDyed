@@ -20,9 +20,6 @@ jobs:
   release:
     uses: game-design-driven/mod-release-workflow/.github/workflows/mod-release.yaml@main
     with:
-      mod_name: "TooltipsReforgedDyed"
-      mod_id: "TooltipsReforgedDyed"
-      mod_slug: "tooltipsreforgeddyed"
       loader: "forge"
       mc_version: "1.20.1"
       java_version: "17"
@@ -30,13 +27,10 @@ jobs:
       modrinth_id: ${{ vars.MODRINTH_ID }}
       curseforge_id: ${{ vars.CF_ID }}
 
-      target_modpack_repo: "game-design-driven/Create-Prepare-to-Dye-2"
+      target_modpack_repo: ${{ vars.TARGET_MODPACK_REPO }}
       enable_modrinth_sync: ${{ vars.ENABLE_MODRINTH_SYNC == 'true' }}
       enable_curseforge_sync: ${{ vars.ENABLE_CURSEFORGE_SYNC == 'true' }}
       curseforge_modpack_path: "./curseforge"
-
-      dependencies: |
-        tooltips-reforged(required)
 
       manual_bump: ${{ inputs.manual_bump || 'patch' }}
     secrets:
