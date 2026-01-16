@@ -21,3 +21,4 @@ Thumbs.db
 
 # Minecraft
 *.log
+.claude/settings.local.json
