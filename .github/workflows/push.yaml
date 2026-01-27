@@ -20,12 +20,9 @@ jobs:
   release:
     uses: game-design-driven/mod-release-workflow/.github/workflows/mod-release.yaml@main
     with:
-      loader: "forge"
-      mc_version: "1.20.1"
+      # Required: mods.toml [mc-publish] keys
+      # modrinth, curseforge, loader=forge, mc_version, modrinth_slug, curseforge_slug
       java_version: "17"
-
-      modrinth_id: ${{ vars.MODRINTH_ID }}
-      curseforge_id: ${{ vars.CF_ID }}
 
       target_modpack_repo: ${{ vars.TARGET_MODPACK_REPO }}
       enable_modrinth_sync: ${{ vars.ENABLE_MODRINTH_SYNC == 'true' }}
