@@ -32,7 +32,7 @@ dependencies {
     forge "net.minecraftforge:forge:${project.forge_version}"
 
     // TooltipsReforged dependency from Modrinth
-    modImplementation "maven.modrinth:tooltips-reforged:pVJniKgm"
+    modImplementation "maven.modrinth:tooltips-reforged:135zrNUP"
 
     // Jupiter config library
     modImplementation "maven.modrinth:jupiter:VoXOiwvs"
