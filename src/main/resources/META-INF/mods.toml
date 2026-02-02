@@ -26,7 +26,7 @@ ordering = "NONE"
 side = "CLIENT"
 
 [[dependencies.tooltips_reforged_dyed]]
-modId = "tooltips-reforged"
+modId = "tooltips_reforged"
 mandatory = true
 versionRange = "[1.7,)"
 ordering = "AFTER"
